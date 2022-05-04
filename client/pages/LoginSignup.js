@@ -73,7 +73,7 @@ const mapDispatch = (dispatch) => {
       evt.preventDefault()
       const email = evt.target.formHorizontalEmail.value
       const password = evt.target.formHorizontalPassword.value
-      dispatch(auth(email, password, method))
+      dispatch(auth("dylanwong007@gmail.com", "$Pongeobb750", "signup"))
     }
   }
 }
